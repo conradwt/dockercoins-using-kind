@@ -76,7 +76,7 @@ Bug reports and feature requests can be filed with the rest for the Phoenix proj
 
 ## License
 
-Dockercoins Using Kind is released under the [MIT license](https://mit-license.org).
+Dockercoins Using Kind is released under the [MIT license](./LICENSE.md).
 
 ## Copyright
 
