@@ -6,7 +6,7 @@ The purpose of this example is to provide instructions for running the Dockercoi
 
 - Docker For Mac 4.9.1 or newer
 
-- KinD 5.4.3 or newer
+- KinD 0.14.0 or newer
 
 ## Create Cluster
 
