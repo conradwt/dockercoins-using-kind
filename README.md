@@ -2,13 +2,19 @@
 
 The purpose of this example is to provide instructions for running the Dockercoins sample app using Kind.
 
-## create cluster
+## Software Requirements
+
+- Docker For Mac 4.9.1 or newer
+
+- KinD 5.4.3 or newer
+
+## Create Cluster
 
 ```zsh
 kind create cluster --name dockercoins --config ./kind-config.yaml
 ```
 
-## create necessary environment variables
+## Create Necessary Environment Variables
 
 ```zsh
 export KUBECONFIG="$(kind get kubeconfig --name='dockercoins')"
@@ -16,13 +22,13 @@ export REGISTRY=dockercoins
 export TAG=v0.1
 ```
 
-## create Redis deployment
+## Create Redis Deployment
 
 ```zsh
 kubectl create deployment redis --image=redis
 ```
 
-## create other deployments
+## Create Other Deployments
 
 ```zsh
 for SERVICE in hasher rng webui worker; do
@@ -30,7 +36,7 @@ for SERVICE in hasher rng webui worker; do
 done
 ```
 
-## create redis, rng, and hasher services using ClusterIP type
+## Create Redis, Rng, And Hasher Services Using ClusterIP Type
 
 ```zsh
 kubectl expose deployment redis --port 6379
@@ -38,13 +44,13 @@ kubectl expose deployment rng --port 80
 kubectl expose deployment hasher --port 80
 ```
 
-## create webui service using NodePort type
+## Create Webui Service Using NodePort Type
 
 ```zsh
 kubectl create service nodeport webui --node-port=30080 --tcp=8082:80
 ```
 
-## navigate to webui service in the browser
+## Navigate To Webui Service In The Browser
 
 ```zsh
 open http://localhost:8082
@@ -56,7 +62,7 @@ open http://localhost:8082
 kubectl scale deploy/worker --replicas=10
 ```
 
-## teardown cluster
+## Teardown Cluster
 
 ```zsh
 kind delete cluster --name dockercoins
@@ -80,4 +86,4 @@ Dockercoins Using Kind is released under the [MIT license](./LICENSE.md).
 
 ## Copyright
 
-copyright:: (c) Copyright 2020 Conrad Taylor. All Rights Reserved.
+copyright:: (c) Copyright 2020 - 2022 Conrad Taylor. All Rights Reserved.
