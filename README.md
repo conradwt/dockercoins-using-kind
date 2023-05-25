@@ -4,9 +4,9 @@ The purpose of this example is to provide instructions for running the Dockercoi
 
 ## Software Requirements
 
-- Docker For Mac 4.9.1 or newer
+- Docker For Mac 4.19.0 or newer
 
-- KinD 0.14.0 or newer
+- KinD 0.19.0 or newer
 
 ## Create Cluster
 
@@ -86,4 +86,4 @@ Dockercoins Using Kind is released under the [MIT license](./LICENSE.md).
 
 ## Copyright
 
-copyright:: (c) Copyright 2020 - 2022 Conrad Taylor. All Rights Reserved.
+copyright:: (c) Copyright 2020 - 2023 Conrad Taylor. All Rights Reserved.
