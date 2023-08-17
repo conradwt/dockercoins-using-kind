@@ -4,9 +4,9 @@ The purpose of this example is to provide instructions for running the Dockercoi
 
 ## Software Requirements
 
-- Docker For Mac 4.19.0 or newer
+- Docker For Mac 4.22.0 or newer
 
-- Kubernetes 1.27.3
+- Kubernetes 1.28.0
 
 - KinD 0.20.0 or newer
 
@@ -46,13 +46,13 @@ kubectl expose deployment rng --port 80
 kubectl expose deployment hasher --port 80
 ```
 
-## Create Webui Service Using NodePort Type
+## Create WebUI Service Using NodePort Type
 
 ```zsh
 kubectl create service nodeport webui --node-port=30080 --tcp=8082:80
 ```
 
-## Navigate To Webui Service In The Browser
+## Navigate To WebUI Service In The Browser
 
 ```zsh
 open http://localhost:8082
