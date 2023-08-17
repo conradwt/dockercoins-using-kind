@@ -13,7 +13,7 @@ The purpose of this example is to provide instructions for running the Dockercoi
 ## Create Cluster
 
 ```zsh
-kind create cluster --name dockercoins --config ./kind-config.yaml
+kind create cluster --name dockercoins --config ./kind.yaml
 ```
 
 ## Create Necessary Environment Variables
