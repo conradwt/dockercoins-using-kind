@@ -4,11 +4,11 @@ The purpose of this example is to provide instructions for running the Dockercoi
 
 ## Software Requirements
 
-- Docker For Mac 4.22.0 or newer
+- Docker Desktop for Mac 4.28.0 or newer
 
-- Kubernetes 1.28.0
+- Kubernetes 1.29.2
 
-- KinD 0.20.0 or newer
+- KinD 0.22.0 or newer
 
 ## Create Cluster
 
@@ -88,4 +88,4 @@ Dockercoins Using Kind is released under the [MIT license](./LICENSE.md).
 
 ## Copyright
 
-copyright:: (c) Copyright 2020 - 2023 Conrad Taylor. All Rights Reserved.
+copyright:: (c) Copyright 2020 - 2024 Conrad Taylor. All Rights Reserved.
