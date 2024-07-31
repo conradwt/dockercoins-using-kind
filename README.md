@@ -6,7 +6,7 @@ The purpose of this example is to provide instructions for running the Dockercoi
 
 - Docker Desktop for Mac 4.28.0 or newer
 
-- Kubernetes 1.20.2
+- Kubernetes 1.30.2
 
 - KinD 0.23.0 or newer
 
