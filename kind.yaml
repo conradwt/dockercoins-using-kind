@@ -7,10 +7,10 @@ networking:
   apiServerPort: 45451
 nodes:
   - role: control-plane
-    image: kindest/node:v1.30.0-alpha.0.102_41890534532931@sha256:446bf1e60d4365b8b37ef832e99a8377cd41178889d86275880667e8034c89d9
+    image: kindest/node:v1.30.2@sha256:ecfe5841b9bee4fe9690f49c118c33629fa345e3350a0c67a5a34482a99d6bba
   - role: worker
-    image: kindest/node:v1.30.0-alpha.0.102_41890534532931@sha256:446bf1e60d4365b8b37ef832e99a8377cd41178889d86275880667e8034c89d9
+    image: kindest/node:v1.30.2@sha256:ecfe5841b9bee4fe9690f49c118c33629fa345e3350a0c67a5a34482a99d6bba
   - role: worker
-    image: kindest/node:v1.30.0-alpha.0.102_41890534532931@sha256:446bf1e60d4365b8b37ef832e99a8377cd41178889d86275880667e8034c89d9
+    image: kindest/node:v1.30.2@sha256:ecfe5841b9bee4fe9690f49c118c33629fa345e3350a0c67a5a34482a99d6bba
   - role: worker
-    image: kindest/node:v1.30.0-alpha.0.102_41890534532931@sha256:446bf1e60d4365b8b37ef832e99a8377cd41178889d86275880667e8034c89d9
+    image: kindest/node:v1.30.2@sha256:ecfe5841b9bee4fe9690f49c118c33629fa345e3350a0c67a5a34482a99d6bba
