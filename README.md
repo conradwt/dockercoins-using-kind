@@ -4,11 +4,11 @@ The purpose of this example is to provide instructions for running the Dockercoi
 
 ## Software Requirements
 
-- Docker Desktop for Mac 4.28.0 or newer
+- Docker Desktop for Mac 4.45.0 or newer
 
-- Kubernetes 1.30.2
+- Kubernetes 1.33.4
 
-- KinD 0.23.0 or newer
+- KinD 0.30.0 or newer
 
 ## Create Cluster
 
