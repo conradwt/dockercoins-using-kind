@@ -88,4 +88,4 @@ Dockercoins Using Kind is released under the [MIT license](./LICENSE.md).
 
 ## Copyright
 
-copyright:: (c) Copyright 2020 - 2024 Conrad Taylor. All Rights Reserved.
+copyright:: (c) Copyright 2020 - 2025 Conrad Taylor. All Rights Reserved.
